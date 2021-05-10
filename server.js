@@ -118,7 +118,7 @@ app.post("/api/animals", (req, res) => {
     // add animal to json file and animals array in this function
     const animal = createNewAnimal(req.body, animals);
 
-    res.json(req.body);
+    res.json(animal);
   }
 });
 
