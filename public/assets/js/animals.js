@@ -2,6 +2,7 @@ const { response } = require("express");
 
 const $animalForm = document.querySelector("#animals-form");
 const $displayArea = document.querySelector("#display-area");
+const { animals } = require("./data/animals.json");
 
 const printResults = (resultArr) => {
   console.log(resultArr);
